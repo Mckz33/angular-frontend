@@ -1,0 +1,16 @@
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+}
+.nav-list a {
+    color: #FFF;
+    margin: 10px 10px 10px 15px;
+    font-weight: bold;
+}
+.nav-list i {
+    vertical-align: middle;
+}
+.sidenav {
+    background-color: blue;
+}
