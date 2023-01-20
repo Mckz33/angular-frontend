@@ -9,12 +9,16 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 import { NavComponent } from './components/template/nav/nav.component';
 import {MatSidenavModule} from "@angular/material/sidenav";
 import {MatListModule} from "@angular/material/list";
+import { FooterComponent } from './components/template/footer/footer.component';
+import { RedDirective } from './directives/red.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    NavComponent
+    NavComponent,
+    FooterComponent,
+    RedDirective
   ],
   imports: [
     BrowserModule,
